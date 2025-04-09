@@ -35,7 +35,6 @@ a:hover{
 }
 
 .photo {
-    overflow: hidden;
     height: 300px;
     width: 100%;
 }
