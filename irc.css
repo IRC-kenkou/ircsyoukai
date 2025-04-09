@@ -1,0 +1,139 @@
+header{
+    height: 10%;
+    width: 100%;
+    margin: 0;
+    background-color: aqua;
+    
+    text-align: center;
+    line-height: 65px;
+
+    font-family: 'ＭＳ ゴシック',sans-serif;
+    font-size: x-large;
+}
+
+.button{
+    height: 70px;
+    width: 33.33%;
+
+    background-color: aqua;
+    text-align: center;
+
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+a{
+    color: #000;
+    text-decoration: none;
+
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    font-size: x-large;
+    text-shadow: 3px 3px 3px #333;
+}
+
+.photo {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+.img {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+
+    transition: all 1s ease;
+}
+
+.active {
+    opacity: 1;
+}
+
+main{
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 510px;
+    width: 80%;
+
+    background-color: aliceblue;
+
+    box-shadow: 10px 10px 15px -10px;
+}
+
+.main_v{
+    margin-top: 80px;
+    margin-left: 90px;
+    width: 400px;
+    height: 227px;
+}
+
+.flex_if{
+    display: flex;
+}
+
+.groupbox{
+    display: flex;
+}
+
+.group{
+    margin-top: 2%;
+    height: 500px;
+    width: 39%;
+
+    background-color: aliceblue;
+
+    box-shadow: 10px 10px 15px -10px;
+}
+
+.group1{
+    margin-left: 10%;
+}
+
+.subtitle{
+    background-color: skyblue;
+    font-size: large;
+}
+
+.w4h1{
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 200px;
+    width: 80%;
+    
+    background-color: aliceblue;
+
+    box-shadow: 10px 10px 15px -10px;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    margin-top: 2%;
+    background-color: aqua;
+    
+    text-align: center;
+    line-height: 65px;
+
+    font-family: 'ＭＳ ゴシック',sans-serif;
+    font-size: x-large;
+}
+
+
+
+.it{
+    margin-top: 15px; margin-left: 45px; width: 400px;
+}
+
+.web{
+    margin-top: 15px; margin-left: 45px; width: 400px;
+}
+
+.lego{
+    margin-top: 15px; margin-left: 45px; width: 400px;
+}
+
+.kyougi{
+    margin-top: 15px; margin-left: 45px; width: 400px;
+}
