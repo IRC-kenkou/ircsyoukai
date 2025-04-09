@@ -12,10 +12,20 @@ header{
 }
 
 .button{
-    position: absolute;
-    opacity: 0;
-    user-select: none;
-    pointer-events: none;
+    height: 70px;
+    width: 33.33%;
+
+    background-color: aqua;
+    text-align: center;
+
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
 }
 
 .title{
