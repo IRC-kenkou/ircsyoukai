@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRC_homepage</title>
+    <link rel="stylesheet" media="(min-width: 913px)" href="irc.css">
+    <link rel="stylesheet" media="(max-width: 913px)" href="irc_s.css">
+    <script src="irc.js" defer></script>
+</head>
+<body style="height: 100%; width: 100%; margin: 0; background-color: rgb(150, 255, 255);">
+    <header>『情報研究部』</header>
+
+    <div class="photo">
+        <img src="./WIN_20240719_17_58_03_Pro_3_2.jpg" class="img active" />
+        <img src="./250401095541203_2.jpg" class="img" />
+        <img src="./WIN_20240719_17_55_16_Pro_3_2.png"  class="img"/>
+        <img src="./2504011201380002.jpg"  class="img"/>
+    </div>
+
+    <div style="display: flex;">
+        <div class="button"><a href="#main">部活動紹介</a></div>
+        <div class="button" style="border-right: 1px solid #778; border-left: 1px solid #778;"><a href="#groupbox">班紹介</a></div>
+        <div class="button"><a href="#w4h1">活動詳細</a></div>
+    </div>
+
+    <main id="main">
+        <h1 style="background-color: aquamarine;" class="title">　部活動紹介　</h1>
+            <div class="flex_if">
+                <div class="main_f">
+                    　　　情報研究部では、業務用ＩＴ班、Ｗｅｂ班、LEGO班、
+                    <p>　　競技プログラム班の4つの班に分かれ、それぞれの班の目</p>
+                    <p>　　標や大会に向けて、日々活動を続けています。</p>
+                    <p>　　　そして、｢技術五輪全国大会｣や「若年者ものづくり競技</p>
+                    <p>　　大会｣、「全国高校生プログラミングコンテスト｣、｢WRO</p>
+                    <p>　　(ワールドロボットオリンピアード)｣などといった各種大会</p>
+                    <p>　　で活躍し、日本一を目指して頑張っています。</p>
+                    <p>　　　また、校外での活動や、地域の方々との交流など、様々</p>
+                    <p>　　な活動を行っていて、この部の活動をより多くの人に知っ</p>
+                    <p>　　てもらえるように努力しています。</p>
+                </div>
+                <img src="./スクリーンショット 2025-04-08 133912_3.png" class="main_v">
+            </div>
+    </main>
+
+    <div class="groupbox" id="groupbox">
+        <div class="group group1">
+            <span class="subtitle">　業務用IT班　</span>
+            <div class="flex_if2">
+                <div>
+                    <p>　業務用IT班では、企業で用いられる業務用アプリケーションの
+                    <p>　設計から、「C#」という言語を用いた制作、データベース作成
+                    <p>　といった技術を学習する班で、｢業務用ITソフトウェア・ソリュー
+                    <p>　ションズ職種｣において活躍することを目標としています。</p>
+                </div>
+                <video src="./業務用.mp4" class="it" controls></video>
+            </div>
+        </div>
+
+        <div class="group" style="margin-left: 2%;">
+            <span class="subtitle">　Web班　</span>
+            <div  class="flex_if2">
+                <div>
+                    <p>　Web班では、HTMLやCSS、JavaScriptといった言語を使
+                    <p>　用して、Webアプリケーションの制作などをしています。
+                    <p>　また、その技術を使って、「若年者ものづくり大会」や、
+                    <p>　「技能五輪全国大会」で活躍できるよう活動しています。</p>
+                </div>
+                <video src="./ウェブ - Trim.mp4" class="web" controls></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="groupbox">
+        <div class="group group1">
+            <span class="subtitle">　LEGO班　</span>
+            <div class="flex_if2">
+                <div>
+                    <p>　LEGO班では、PythonとレゴマインドストームEV3を使用して、
+                    <p>　LEGOブロックで制作したロボットをプログラムで制御する方法
+                    <p>　を学び、「WRO(World Robot Olympiad)｣という大会での活躍
+                    <p>　を目標に活動しています。</p>
+                </div>
+                <video src="./lego.mp4" class="lego" controls></video>
+            </div>
+        </div>
+
+        <div class="group" style="margin-left: 2%;">
+            <span class="subtitle">　競技プログラミング班　</span>
+            <div  class="flex_if2">
+                <div>
+                    <p>　競技班は、C++という言語を用いて、与えられた課題に沿って
+                    <p>　プログラムを制作する、競技プログラミングに取り組む班です。
+                    <p>　｢パソコン甲子園｣や｢日本情報オリンピック｣、そして「全国高
+                    <p>　校プログラミングコンテスト」に向けて活動しています。</p>
+                </div>
+                <video src="./競技.mp4" class="kyougi" controls></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="w4h1" id="w4h1">
+        <h1 style="background-color: rgb(70, 203, 255);" class="title">　活動詳細　</h1>
+        <div class="w4h1_n">
+            <p>　　活動日：毎週 月～土曜日　</p>
+            <p>　活動時間：平日 放課後～18:30　土曜日、祝日 8:15～12:30</p>
+            <p>　活動場所：実習棟4階　情報応用実習室、情報・通信実習室　　　(大会などにより、県外に行くことがあります。)</p>
+        </div>
+        
+    </div>
+
+    <footer>
+        『情報研究部』
+    </footer>
+</body>
+</html>
